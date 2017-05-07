@@ -7,7 +7,8 @@
     "waypoints": [
       {
         "time":"2017-04-21 09:00+0200",
-        "place":"Pansion Adriatik, 21216 Kaštel Stari, Croatia"
+        "place":"Pansion Adriatik, 21216 Kaštel Stari, Croatia",
+        "url": "https://www.airbnb.co.uk/rooms/16864429"
       },
       {
         "time":"2017-04-21 09:00+0200",
@@ -20,6 +21,7 @@
       {
         "time":"2017-04-21 16:00+0200",
         "place":"Hostel 365 For U, Vukovarska ulica, Dubrovnik, Croatia",
+        "url": "http://www.365foru.hr/index.php",
         "pictures": [
           "https://photos.google.com/share/AF1QipNQHQcOJUwf5ducTkhgmGN887XMBRDb9PJD0ksCYTw94rCMys7jpOOPfhUpduMb8g/photo/AF1QipNHg0vjcCqarmeBx4aMHrw-_E6x9_sfJz69_ta2?key=aTR1ajhmV1BoOGUxQ0h4VU9HbjVjRWg3Rm1CRVFB"
         ]
@@ -66,11 +68,13 @@
     "waypoints": [
       {
         "time":"2017-04-22 09:00+0200",
-        "place":"Hostel 365 For U, Vukovarska ulica, Dubrovnik, Croatia"
+        "place":"Hostel 365 For U, Vukovarska ulica, Dubrovnik, Croatia",
+        "url": "http://www.365foru.hr/index.php"
       },
       {
         "time":"2017-04-22 09:00+0200",
-        "place":"Apartment Angie, Dobrota, Montenegro"
+        "place":"Apartment Angie, Dobrota, Montenegro",
+        "url": "https://www.airbnb.co.uk/rooms/5794992"
       }
     ],
     "map": {
@@ -114,11 +118,13 @@
     "waypoints": [
       {
         "time":"2017-04-29 09:00+0200",
-        "place":"Apartment Angie, Dobrota, Montenegro"
+        "place":"Apartment Angie, Dobrota, Montenegro",
+        "url": "https://www.airbnb.co.uk/rooms/5794992"
       },
       {
         "time":"2017-04-29 15:00+0200",
-        "place":"Hotel Gjallica, Rruga Dituria, Kukës, Albania"
+        "place":"Hotel Gjallica, Rruga Dituria, Kukës, Albania",
+        "url": "http://www.hotelgjallica.al"
       }
     ],
     "map": {
@@ -162,11 +168,13 @@
     "waypoints": [
       {
         "time":"2017-04-30 09:00+0200",
-        "place":"Hotel Gjallica, Rruga Dituria, Kukës, Albania"
+        "place":"Hotel Gjallica, Rruga Dituria, Kukës, Albania",
+        "url": "http://www.hotelgjallica.al"
       },
       {
         "time":"2017-04-30 09:00+0200",
-        "place":"Vila Silia, Vostanichka 30, Skopje 1000, Macedonia"
+        "place":"Vila Silia, Vostanichka 30, Skopje 1000, Macedonia",
+        "url": "http://www.hotelvilasilia.com.mk"
       }
     ],
     "map": {
@@ -210,11 +218,13 @@
     "waypoints": [
       {
         "time":"2017-05-01 09:00+0200",
-        "place":"Vila Silia, Vostanichka 30, Skopje 1000, Macedonia"
+        "place":"Vila Silia, Vostanichka 30, Skopje 1000, Macedonia",
+        "url": "http://www.hotelvilasilia.com.mk"
       },
       {
         "time":"2017-05-01 14:00+0300",
-        "place":"Cedar Lodge 4, Bansko, 2770, Bulgaria"
+        "place":"Cedar Lodge 4, Bansko, 2770, Bulgaria",
+        "url": "https://www.airbnb.co.uk/rooms/9992267"
       }
     ],
     "map": {
