@@ -2,6 +2,12 @@
 
 - pipe polyline from google maps api through mapbox decoder:
 
+  - Deruta to Kaštel Stari
+
+    ```
+    curl -s "https://maps.googleapis.com/maps/api/directions/json?origin=%22Via+Mancini,+26,+06053+Deruta+PG,+Italy%22&destination=%22Avizo+D.o.o,+21216,+Kaštel+Stari,+Croatia%22" | jq -r '.routes[0].overview_polyline.points' | /usr/lib/node_modules/@mapbox/polyline/bin/polyline.bin.js --decode
+    ```
+
   - Kaštel Stari to Dubrovnik
 
     ```
@@ -33,6 +39,12 @@
     ```
 
 - fetch bounds, distance and duration from google maps api:
+
+  - Deruta to Kaštel Stari
+
+    ```
+    curl -s "https://maps.googleapis.com/maps/api/directions/json?origin=%22Via+Mancini,+26,+06053+Deruta+PG,+Italy%22&destination=%22Avizo+D.o.o,+21216,+Kaštel+Stari,+Croatia%22" | jq '{paths:[.routes[0].legs[].steps[].end_location],bounds:.routes[0].bounds,distance:.routes[0].legs[].distance,duration:.routes[0].legs[].duration}'
+    ```
 
   - Kaštel Stari to Dubrovnik
 
