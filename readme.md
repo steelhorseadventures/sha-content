@@ -2,6 +2,12 @@
 
 - pipe polyline from google maps api through mapbox decoder:
 
+  - Roma to Deruta
+
+    ```
+    curl -s "https://maps.googleapis.com/maps/api/directions/json?origin=%2200172+Rome,+Italy%22&destination=%22Via+Mancini,+26,+06053+Deruta+PG,+Italy%22" | jq -r '.routes[0].overview_polyline.points' | /usr/lib/node_modules/@mapbox/polyline/bin/polyline.bin.js --decode
+    ```
+
   - Deruta to Kaštel Stari
 
     ```
@@ -39,6 +45,12 @@
     ```
 
 - fetch bounds, distance and duration from google maps api:
+
+  - Roma to Deruta
+
+    ```
+    curl -s "https://maps.googleapis.com/maps/api/directions/json?origin=%2200172+Rome,+Italy%22&destination=%22Via+Mancini,+26,+06053+Deruta+PG,+Italy%22" | jq '{paths:[.routes[0].legs[].steps[].end_location],bounds:.routes[0].bounds,distance:.routes[0].legs[].distance,duration:.routes[0].legs[].duration}'
+    ```
 
   - Deruta to Kaštel Stari
 
