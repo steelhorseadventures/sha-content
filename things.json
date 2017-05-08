@@ -4,6 +4,12 @@
     "title": "Las Palmas de Gran Canaria, Spain to Huelva, Spain by Ferry",
     "description": "",
     "facebook": "",
+    "countries": [
+      {
+        "code": "es",
+        "url": "https://en.wikipedia.org/wiki/Spain"
+      }
+    ],
     "waypoints": [
       {
         "time":"2017-03-23 09:00+0200",
@@ -54,6 +60,12 @@
     "title": "Huelva, Spain to Almeria, Spain",
     "description": "",
     "facebook": "",
+    "countries": [
+      {
+        "code": "es",
+        "url": "https://en.wikipedia.org/wiki/Spain"
+      }
+    ],
     "waypoints": [
       {
         "time":"2017-03-25 09:00+0200",
@@ -104,6 +116,12 @@
     "title": "Almeria, Spain to Xàbia, Spain",
     "description": "",
     "facebook": "",
+    "countries": [
+      {
+        "code": "es",
+        "url": "https://en.wikipedia.org/wiki/Spain"
+      }
+    ],
     "waypoints": [
       {
         "time":"2017-03-26 09:00+0200",
@@ -154,6 +172,16 @@
     "title": "Xàbia, Spain to Roma, Italy via ferry from Barcelona to Civitavecchia",
     "description": "",
     "facebook": "",
+    "countries": [
+      {
+        "code": "es",
+        "url": "https://en.wikipedia.org/wiki/Spain"
+      },
+      {
+        "code": "it",
+        "url": "https://en.wikipedia.org/wiki/Italy"
+      }
+    ],
     "waypoints": [
       {
         "time":"2017-04-01 09:00+0200",
@@ -204,6 +232,12 @@
     "title": "Roma, Italy to Deruta, Italy",
     "description": "",
     "facebook": "",
+    "countries": [
+      {
+        "code": "it",
+        "url": "https://en.wikipedia.org/wiki/Italy"
+      }
+    ],
     "waypoints": [
       {
         "time":"2017-04-06 09:00+0200",
@@ -254,6 +288,16 @@
     "title": "Deruta, Italy to Kaštel Stari, Croatia via ferry from Ancona",
     "description": "",
     "facebook": "10154545916403786",
+    "countries": [
+      {
+        "code": "it",
+        "url": "https://en.wikipedia.org/wiki/Italy"
+      },
+      {
+        "code": "hr",
+        "url": "https://en.wikipedia.org/wiki/Croatia"
+      }
+    ],
     "waypoints": [
       {
         "time":"2017-04-06 09:00+0200",
@@ -304,6 +348,16 @@
     "title": "Kaštel Stari, Croatia to Dubrovnik, Croatia via the coastal road",
     "description": "",
     "facebook": "10154590840788786",
+    "countries": [
+      {
+        "code": "hr",
+        "url": "https://en.wikipedia.org/wiki/Croatia"
+      },
+      {
+        "code": "ba",
+        "url": "https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina"
+      }
+    ],
     "waypoints": [
       {
         "time":"2017-04-21 09:00+0200",
@@ -365,6 +419,16 @@
     "title": "Dubrovnik, Croatia to Dobrota, Montenegro",
     "description": "",
     "facebook": "10154612463638786",
+    "countries": [
+      {
+        "code": "hr",
+        "url": "https://en.wikipedia.org/wiki/Croatia"
+      },
+      {
+        "code": "me",
+        "url": "https://en.wikipedia.org/wiki/Montenegro"
+      }
+    ],
     "waypoints": [
       {
         "time":"2017-04-22 09:00+0200",
@@ -415,6 +479,16 @@
     "title": "Dobrota, Montenegro to Kukës, Albania",
     "description": "",
     "facebook": "10154614695528786",
+    "countries": [
+      {
+        "code": "me",
+        "url": "https://en.wikipedia.org/wiki/Montenegro"
+      },
+      {
+        "code": "al",
+        "url": "https://en.wikipedia.org/wiki/Albania"
+      }
+    ],
     "waypoints": [
       {
         "time":"2017-04-29 09:00+0200",
@@ -465,6 +539,20 @@
     "title": "Kukës, Albania to Skopje, Macedonia via Kosovo",
     "description": "",
     "facebook": "10154617366343786",
+    "countries": [
+      {
+        "code": "al",
+        "url": "https://en.wikipedia.org/wiki/Albania"
+      },
+      {
+        "code": "xk",
+        "url": "https://en.wikipedia.org/wiki/Kosovo"
+      },
+      {
+        "code": "mk",
+        "url": "https://en.wikipedia.org/wiki/Republic_of_Macedonia"
+      }
+    ],
     "waypoints": [
       {
         "time":"2017-04-30 09:00+0200",
@@ -515,6 +603,16 @@
     "title": "Skopje, Macedonia to Bansko, Bulgaria",
     "description": "",
     "facebook": "10154637249378786",
+    "countries": [
+      {
+        "code": "mk",
+        "url": "https://en.wikipedia.org/wiki/Republic_of_Macedonia"
+      },
+      {
+        "code": "bg",
+        "url": "https://en.wikipedia.org/wiki/Bulgaria"
+      }
+    ],
     "waypoints": [
       {
         "time":"2017-05-01 09:00+0200",
