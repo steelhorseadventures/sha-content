@@ -2,6 +2,25 @@
 
 - pipe polyline from google maps api through mapbox decoder:
 
+  - Plymouth to Salamanca
+
+    ```
+    curl -s "https://maps.googleapis.com/maps/api/directions/json?origin=%22Wyndham+Mews,+Plymouth+PL1%22&destination=%22Brittany+Ferries,+Plymouth%22" | jq -r '.routes[0].overview_polyline.points' | /usr/lib/node_modules/@mapbox/polyline/bin/polyline.bin.js --decode
+    curl -s "https://maps.googleapis.com/maps/api/directions/json?origin=%22Santander,+Spain%22&destination=%22Salamanca,+Spain%22" | jq -r '.routes[0].overview_polyline.points' | /usr/lib/node_modules/@mapbox/polyline/bin/polyline.bin.js --decode
+    ```
+
+  - Salamanca to Seville
+
+    ```
+    curl -s "https://maps.googleapis.com/maps/api/directions/json?origin=%22Salamanca,+Spain%22&destination=%22Seville,+Spain%22" | jq -r '.routes[0].overview_polyline.points' | /usr/lib/node_modules/@mapbox/polyline/bin/polyline.bin.js --decode
+    ```
+
+  - Seville to Las Palmas
+
+    ```
+    curl -s "https://maps.googleapis.com/maps/api/directions/json?origin=%22Seville,+Spain%22&destination=%22Las+Palmas+de+Gran+Canaria%22" | jq -r '.routes[0].overview_polyline.points' | /usr/lib/node_modules/@mapbox/polyline/bin/polyline.bin.js --decode
+    ```
+
   - Las Palmas to Huelva
 
     ```
@@ -70,6 +89,24 @@
     ```
 
 - fetch bounds, distance and duration from google maps api:
+
+  - Plymouth to Salamanca
+
+    ```
+    curl -s "https://maps.googleapis.com/maps/api/directions/json?origin=%22Wyndham+Mews,+Plymouth+PL1%22&destination=%22Salamanca,+Spain%22" | jq '{bounds:.routes[0].bounds,distance:.routes[0].legs[].distance,duration:.routes[0].legs[].duration}'
+    ```
+
+  - Salamanca to Seville
+
+    ```
+    curl -s "https://maps.googleapis.com/maps/api/directions/json?origin=%22Salamanca,+Spain%22&destination=%22Seville,+Spain%22" | jq '{bounds:.routes[0].bounds,distance:.routes[0].legs[].distance,duration:.routes[0].legs[].duration}'
+    ```
+
+  - Seville to Las Palmas
+
+    ```
+    curl -s "https://maps.googleapis.com/maps/api/directions/json?origin=%22Seville,+Spain%22&destination=%22Las+Palmas+de+Gran+Canaria%22" | jq '{bounds:.routes[0].bounds,distance:.routes[0].legs[].distance,duration:.routes[0].legs[].duration}'
+    ```
 
   - Las Palmas to Huelva
 
